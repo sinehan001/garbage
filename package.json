@@ -1,0 +1,33 @@
+{
+  "name": "secrets---starting-code",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js", 
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.20.0",
+    "connect-livereload": "^0.6.1",
+    "dotenv": "^16.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "express-session": "^1.17.2",
+    "fs": "^0.0.1-security",
+    "json_encode": "^0.1.0",
+    "livereload": "^0.9.3",
+    "md5": "^2.3.0",
+    "mongoose": "^6.3.0",
+    "mongoose-encryption": "^2.1.2",
+    "nodemon": "^2.0.19",
+    "passport": "^0.5.2",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^7.0.0",
+    "pdfkit-table": "^0.1.99"
+  }
+}
